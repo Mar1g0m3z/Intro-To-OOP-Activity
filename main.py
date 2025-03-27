@@ -13,11 +13,11 @@ samara.summary()  # => "Samara is a junior enrolled in 7 classes"
 # second instance
 claire = Student( "Claire", "freshman", [ "Algebra", "Writing", "Contemporary World Issues", "Gym", "Earth Science" ] )
 
-claire.add_class("Painting")  # => [ "Algebra", "Writing", "Contemporary World Issues", "Gym", "Earth Science", "Painting" ]
+print(claire.add_class("Painting"))  # => [ "Algebra", "Writing", "Contemporary World Issues", "Gym", "Earth Science", "Painting" ]
 
 claire.get_num_classes()  # => 6
 
-claire.summary()  # => "Claire is a freshman enrolled in 6 classes"
+print(claire.summary())  # => "Claire is a freshman enrolled in 6 classes"
 
 # function
-get_student_with_more_classes(claire, samara)  # => samara
+print(get_student_with_more_classes(claire, samara))  # => samara  
